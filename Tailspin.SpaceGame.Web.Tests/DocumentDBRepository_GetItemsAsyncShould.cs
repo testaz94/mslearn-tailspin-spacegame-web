@@ -9,6 +9,7 @@ using TailSpin.SpaceGame.Web.Models;
 
 namespace Tests
 {
+    [TestFixture]
     public class DocumentDBRepository_GetItemsAsyncShould
     {
         private IDocumentDBRepository<Score> _scoreRepository;
